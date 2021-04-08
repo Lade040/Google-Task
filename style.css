@@ -1,0 +1,75 @@
+body p{
+    margin: 0em;
+    padding: 0em;
+}
+nav{
+    display:flex;
+    justify-content: space-around;
+    width: 20%;
+    margin-left: auto;
+    padding: 2em;
+}
+a{
+    color: black;
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: underline;
+}
+nav img{
+    height: 20px;
+}
+main{
+    width: 50%;
+    margin: auto;
+    text-align: center;
+    
+}
+input{
+    width: 80%;
+    padding: 1em;
+    border-radius: 25px;
+    border: 1px solid rgb(175, 175, 175);
+}
+.btns-container{
+    margin-top: 1em;
+}
+.btns-container button{
+    color: rgb(54, 54, 54);
+    padding: 0.5em;
+    border:none
+}
+.below-search-button{
+    font-size: medium;
+    padding: 1em;
+    justify-content:space-between;
+    padding-bottom: 100px;
+}
+.below-search-button a{
+    color: blue;
+    margin: 0.5em;
+}
+footer{
+    background-color: rgb(241, 240, 240);
+    margin:1em auto;
+}
+.footer-top{
+    color: rgb(83, 82, 84);
+    padding: 1em;
+}
+.footer-bottom{
+    padding: 1em;
+    display: flex;
+    justify-content: space-between;
+    border-top: 1px solid rgb(156, 155, 155);
+}
+.footer-bottom a{
+    color: rgb(83, 82, 84);
+}
+.middle img{height: 13px;}
+.left a{
+    margin-right: 1em;
+}
+.right a{
+    margin-right: 1em;
+}
